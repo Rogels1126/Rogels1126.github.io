@@ -2,7 +2,7 @@ h1{
 	position: absolute;
 	top:350px;
 	left: 150px;
-	font-family: Candara;
+	font-family: Paletino;
 }
 
 p{
@@ -11,8 +11,8 @@ p{
 	left: 150px;
 	width: 450px;
 	font-family: Palatino;
-	font-size: 24px
-	line-height: 25px; 
+	font-size: 24px;
+	line-height: 29px; 
 }
 .color{
 	transition:background-color .50s;
