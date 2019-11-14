@@ -1,0 +1,298 @@
+
+.background {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background-image: url("NYCPOSTER.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-color: rgb(255,255,255);
+}
+
+.wrapper {
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+margin:auto;
+width:1024px;
+height:700px;
+
+}
+
+.header {
+position:absolute;
+top:-115px;	
+width:100%;
+text-align:center;
+font-size: 95px;
+font-family: 'Anton', sans-serif;
+color:#232b5c;
+}
+
+.place{
+position:absolute;
+font-size: 65px;
+top:330px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#DC4300;
+
+}
+.address{
+position:absolute;
+font-size: 35px;
+top:445px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#232b5c;
+
+}
+.date{
+position:absolute;
+font-size: 35px;
+top:495px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#232b5c;
+
+}
+.time{
+position:absolute;
+font-size: 30px;
+top:555px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#232b5c;
+}
+.V{
+position:absolute;
+font-size: 50px;
+top:205px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#232b5c;
+left:-15px;
+}
+.ticket{
+position:absolute;
+font-size: 45px;
+top:685px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#DC4300;
+display:none;
+}
+.lvl12{
+position:absolute;
+font-size: 35px;
+top:680px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#232b5c;
+display:none;
+}
+.lvlv{
+position:absolute;
+font-size: 35px;
+top:680px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#232b5c;
+display:none;
+}
+
+.prices{
+position:absolute;
+font-size: 35px;
+top:625px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#DC4300;
+}
+
+.pic1{
+	position:absolute;
+	top:75px;
+	left:135px;
+}
+.pic1:hover{
+	top:55px;
+}
+.pic2{
+	position:absolute;
+	top:75px;
+	left:530px;
+}
+.pic2:hover{
+	top:55px;
+	color:red;
+}
+.pic3{
+	position:absolute;
+	top:-25px;
+	left:400px;
+	display:none;
+}
+.pic3:hover{
+	top:55px;
+	color:red;
+}
+.pic4{
+	position:absolute;
+	top:-25px;
+	left:400px;
+	display:none;
+}
+.pic4:hover{
+	top:55px;
+	color:red;
+}
+@media (max-width: 1024px) {
+	.wrapper{
+		width:375px;
+		height:667px;
+	}
+
+	.background {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background-image: url("NYCMOBILE-01.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-color: rgb(255,255,255);
+}
+.header{
+position:absolute;
+top:-55px;	
+width:100%;
+text-align:center;
+font-size: 50px;
+font-family: 'Anton', sans-serif;
+}
+
+.place{
+position:absolute;
+font-size: 35px;
+top:235px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#DC4300;
+}
+.address{
+position:absolute;
+font-size: 25px;
+top:300px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+}
+.date{
+position:absolute;
+font-size: 30px;
+top:340px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+}
+.time{
+position:absolute;
+font-size: 30px;
+top:390px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+}
+
+.prices{
+display:none;
+}
+.ticket{
+position:absolute;
+font-size: 35px;
+top:490px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+display:block;
+}
+.lvl12{
+position:absolute;
+font-size: 30px;
+top:560px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+display:block;
+}
+.lvlv{
+position:absolute;
+font-size: 30px;
+top:610px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+display:block;
+}
+.pic1{
+	position:absolute;
+	top:-25px;
+	left:-400px;
+	display:none;
+}
+
+.pic2{
+	position:absolute;
+	top:-25px;
+	left:400px;
+	display:none;
+}
+.pic3{
+	position:absolute;
+	top: 75px;
+	left:0px;
+	display:block;
+}
+.pic4{
+	position:absolute;
+	top:75px;
+	left:205px;
+	display:block;
+}
+.V{
+position:absolute;
+font-size: 30px;
+top:135px;	
+width:100%;
+text-align:center;
+font-family: 'Anton', sans-serif;
+color:#232b5c;
+left:10px;
+}
+.pic3:hover{
+	top:55px;
+	color:red;
+}
+.pic4:hover{
+	top:55px;
+	color:red;
+}
+}
