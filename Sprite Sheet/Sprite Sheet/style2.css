@@ -1,0 +1,153 @@
+.background {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background-image: url("HOME-01.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+
+}
+.box1{
+position: absolute;
+top:370px;
+left:25px;
+width:300px;
+height:400px;
+background-color: rgb(255,255,255);
+opacity: 15%
+}
+.box1:hover{
+	background-color: #34b888;
+}
+.box2{
+position: absolute;
+top:370px;
+left:355px;
+width:300px;
+height:400px;
+background-color: rgb(255,255,255);
+opacity: 15%
+}
+.box2:hover{
+	background-color: #34b888;
+}
+.box3{
+position: absolute;
+top:370px;
+left:685px;
+width:300px;
+height:400px;
+background-color: rgb(255,255,255);
+opacity: 15%
+}
+.box3:hover{
+	background-color: #34b888;
+}
+.box4{
+position: absolute;
+top:370px;
+left:1025px;
+width:300px;
+height:400px;
+background-color: rgb(255,255,255);
+opacity: 15%
+}
+.box4:hover{
+	background-color: #34b888;
+}
+.boxg{
+position: absolute;
+top:210px;
+left:25px;
+width:1200px;
+height:5px;
+background-color: #34b888;
+}
+.boxm{
+position: absolute;
+top:370px;
+left:25px;
+width:300px;
+height:5px;
+background-color: #34b888;
+}
+
+.boxz{
+position: absolute;
+top:370px;
+left:355px;
+width:300px;
+height:5px;
+background-color: #34b888;
+}
+
+.boxs{
+position: absolute;
+top:370px;
+left:685px;
+width:300px;
+height:5px;
+background-color: #34b888;
+}
+.boxmm{
+position: absolute;
+top:370px;
+left:1025px;
+width:300px;
+height:5px;
+background-color: #34b888;
+}
+.header {
+	position:absolute;
+	top:35px;
+	left:25px;
+	font-size: 75px;
+font-family:'Odibee Sans', cursive;
+color:#34b888;
+	}
+
+.click {
+	position:absolute;
+	top:250px;
+	left:25px;
+	font-size: 40px;
+font-family:'Odibee Sans', cursive;
+color:#34b888;
+	}
+	.Mario {
+	position:absolute;
+	top:365px;
+	left:95px;
+	font-size: 30px;
+font-family:'Odibee Sans', cursive;
+color:#34b888;
+	}
+	.Zelda {
+	position:absolute;
+	top:365px;
+	left:425px;
+	font-size: 30px;
+font-family:'Odibee Sans', cursive;
+color:#34b888;
+	}
+	.Sonic {
+	position:absolute;
+	top:365px;
+	left:765px;
+	font-size: 30px;
+font-family:'Odibee Sans', cursive;
+color:#34b888;
+	}
+	.Megaman {
+	position:absolute;
+	top:365px;
+	left:1085px;
+	font-size: 30px;
+font-family:'Odibee Sans', cursive;
+color:#34b888;
+	}
+
+	

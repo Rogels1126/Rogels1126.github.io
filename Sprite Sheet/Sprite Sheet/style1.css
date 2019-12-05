@@ -1,0 +1,54 @@
+.background {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background-image: url("START-01.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+img{
+	position:absolute;
+	top:-50px;
+	left:-200px;
+width:100vw;
+	height:100vh;
+	background-image: url("START-01.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+.wrapper {
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+margin:auto;
+width:1024px;
+height:700px;
+
+}
+.header {
+	position:absolute;
+	top:180px;
+	left:25px;
+	width:100%;
+	text-align:center;
+	font-size: 100px;
+font-family:'Odibee Sans', cursive;
+color:#34b888;
+}
+
+.click {
+	position:absolute;
+	top:390px;
+	left:50px;
+	width:100%;
+	text-align:center;
+	font-size: 35px;
+font-family:'Odibee Sans', cursive;
+color:#34b888;
+}
