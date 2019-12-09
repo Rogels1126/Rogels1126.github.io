@@ -60,35 +60,41 @@ opacity: 15%
 
 }
 .sonic1{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("Sonic1p.png");
+	font-family:'Odibee Sans', cursive;
 }
 
 .sonic2{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("Sonic2p.png");
 	top:0px;
 	left:450px;
+	font-family:'Odibee Sans', cursive;
 
 }
 .sonic3{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("Sonic3p.png");
 	left:-450px;
 	top:250px;
+	font-family:'Odibee Sans', cursive;
 
 }
 .sonic4{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("Sonic4p.png");
 	left:450px;
 	top:0px;
+	font-family:'Odibee Sans', cursive;
 }
 .sonic5{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("sonic5p.png");
 	left:450px;
 	top:0px;
+	font-family:'Odibee Sans', cursive;
 }
 .sonic6{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("Sonic6p.png");
 	left:0px;
 	top:-250px;
+	font-family:'Odibee Sans', cursive;
 }
 .info{
 	position: relative; 

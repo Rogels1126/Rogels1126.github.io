@@ -70,35 +70,47 @@ opacity: 15%
 
 }
 .mario1{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("mario1p.png");
+	font-family:'Odibee Sans', cursive;
+color:#34b888;
 }
 
 .mario2{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("mario2p.jpg");
 	top:0px;
 	left:450px;
+	font-family:'Odibee Sans', cursive;
+color:#34b888;
 
 }
 .mario3{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("map-mario.png");
 	left:-450px;
 	top:250px;
+	font-family:'Odibee Sans', cursive;
+color:#34b888;
 
 }
 .mario4{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("mario4.png");
 	left:450px;
 	top:0px;
+	font-family:'Odibee Sans', cursive;
+color:#34b888;
 }
 .mario5{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("mario5p.png");
 	left:450px;
 	top:0px;
+	font-family:'Odibee Sans', cursive;
+color:#34b888;
 }
 .mario6{
-	background-image:url("MARIOC-01-01.png");
+	background-image:url("Mario3p.jpg");
 	left:0px;
 	top:-250px;
+	font-family:'Odibee Sans', cursive;
+color:#34b888;
 }
 .info{
 	position: relative; 

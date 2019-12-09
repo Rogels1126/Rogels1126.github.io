@@ -4,7 +4,7 @@
 	left:0;
 	width:100vw;
 	height:100vh;
-	background-image: url("LINKC-01.png");
+	background-image: url("MEGAC-01.png");
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: center center;
@@ -47,7 +47,6 @@ opacity: 15%
 }
 .box1:hover{
 	background-color: #34b888;
-
 }
 .gameart{
 	top:250px;
@@ -60,39 +59,37 @@ opacity: 15%
 	background-position: center center;
 
 }
-.zelda1{
-	background-image:url("zelda1p.png");
+.sonic1{
+	background-image:url("MM1p.png");
 	font-family:'Odibee Sans', cursive;
 }
 
-.zelda2{
-	background-image:url("link2p.png");
+.sonic2{
+	background-image:url("MM2p.png");
 	top:0px;
 	left:450px;
-	font-family:'Odibee Sans', cursive;
-
+font-family:'Odibee Sans', cursive;
 }
-.zelda3{
-	background-image:url("link3p.png");
+.sonic3{
+	background-image:url("MM3P.png");
 	left:-450px;
 	top:250px;
-	font-family:'Odibee Sans', cursive;
-
+font-family:'Odibee Sans', cursive;
 }
-.zelda4{
-	background-image:url("zelda4p.png");
+.sonic4{
+	background-image:url("MM4P.png");
 	left:450px;
 	top:0px;
 	font-family:'Odibee Sans', cursive;
 }
-.zelda5{
-	background-image:url("link5p.png");
+.sonic5{
+	background-image:url("MM5p.png");
 	left:450px;
 	top:0px;
 	font-family:'Odibee Sans', cursive;
 }
-.zelda6{
-	background-image:url("link6p.png");
+.sonic6{
+	background-image:url("MM6p.png");
 	left:0px;
 	top:-250px;
 	font-family:'Odibee Sans', cursive;
