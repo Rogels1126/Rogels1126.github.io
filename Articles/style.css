@@ -21,41 +21,46 @@ color:black;
 	position:absolute;
 	top:115px;
 	left:25px;
-	font-size: 35px;
-font-family: 'Playfair Display', serif;
-color:black;
+	font-size: 15px;
+font-family: 'Avenir', Helvetica, sans-serif;
+color:#fedc4e;
+font-weight:bold;
 }
 .d {
 	position:absolute;
 	top:215px;
 	left:25px;
 	font-size: 35px;
-font-family: 'Playfair Display', serif;
-color:black;
+font-family: 'Avenir', Helvetica, sans-serif;
+color:#fedc4e;
+font-weight:bold;
 }
 .s {
 	position:absolute;
 	top:315px;
 	left:25px;
 	font-size: 35px;
-font-family: 'Playfair Display', serif;
-color:black;
+font-family: 'Avenir', Helvetica, sans-serif;
+color:#fedc4e;
+font-weight:bold;
 }
 .p {
 	position:absolute;
 	top:415px;
 	left:25px;
 	font-size: 35px;
-font-family: 'Playfair Display', serif;
-color:black;
+font-family: 'Avenir', Helvetica, sans-serif;
+color:#fedc4e;
+font-weight:bold;
 }
 .bb {
 	position:absolute;
 	top:515px;
 	left:25px;
 	font-size: 35px;
-font-family: 'Playfair Display', serif;
-color:black;
+font-family: 'Avenir', Helvetica, sans-serif;
+color:#fedc4e;
+font-weight:bold;
 }
 .box6{
 	border: 2px solid black;
@@ -71,61 +76,64 @@ background-size: cover;
 	
 }
 .box1{
-border: 2px solid black;
+border: 2px solid #fedc4e;
 position: absolute;
-top:150px;
+top:104px;
 left:0px;
 width:375px;
-height:50px;
-background-size: cover;
+height:123px;
 	background-repeat:no-repeat;
 	background-position: center center;
-	
+	background-image: url("da.jpg");
+	opacity:black 80%;
+background-size: cover;
 }
 .box2{
 	border: 2px solid black;
 position: absolute;
-top:250px;
+top:231px;
 left:0px;
 width:375px;
-height:50px;
-background-size: cover;
+height:123px;
 	background-repeat:no-repeat;
 	background-position: center center;
-	
+	background-image: url("coop.jpg");
+background-size: cover;
 }
 
 .box4{
 	border: 2px solid black;
 position: absolute;
-top:350px;
+top:358px;
 left:0px;
 width:375px;
-height:50px;
-background-size: cover;
+height:123px;
 	background-repeat:no-repeat;
 	background-position: center center;
-	
+	background-image: url("da.jpg");
+background-size: cover;
 }
 .box5{
 	border: 2px solid black;
 position: absolute;
-top:450px;
+top:481px;
 left:0px;
 width:375px;
-height:50px;
-background-size: cover;
+height:123px;
 	background-repeat:no-repeat;
 	background-position: center center;	
+	background-image: url("coop.jpg");
+background-size: cover;
 }
 .box3{
 	border: 2px solid black;
 position: absolute;
-top:550px;
+top:605px;
 left:0px;
 width:375px;
-height:50px;
-background-size: cover;
+height:123px;
 	background-repeat:no-repeat;
 	background-position: center center;	
+	background-image: url("da.jpg");
+background-size: cover;
 }
