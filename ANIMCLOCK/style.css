@@ -1,0 +1,103 @@
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(11, 32, 200);
+  animation-name: animA;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+
+@keyframes animA {
+  0% {
+    background-color: rgb(50, 100, 50);
+    left:0;
+    top:0;
+    border-radius: 0 0 0 0;
+    width: 200px;
+    transform: rotate(0deg);
+  }
+  25% {
+    background-color: rgb(100, 200, 100);
+    left:50px;
+    top:0;
+     border-radius: 50% 0 0 0;
+    width: 200px;
+    transform: rotate(100deg);
+  }
+  50% {
+    background-color: rgb(150, 250, 200);
+    left:100px;
+    top:0;
+     border-radius: 50% 50% 0 0;
+    width: 200px;
+    transform: rotate(180deg);
+  }
+  75% {
+    background-color: rgb(200, 250, 100);
+    left:150px;
+    top:0;
+     border-radius: 50% 50% 0 0;
+    width: 200px;
+    transform: rotate(220deg);
+  }
+  100% {
+    background-color: rgb(50, 100, 50);
+    left:200px;
+    top:0;
+     border-radius: 50% 50% 50% 50%;
+    width: 200px;
+    transform: rotate(280deg);
+  }
+}
+
+.round {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(11, 32, 200);
+  animation-name: hi;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes hi {
+  0% {
+    background-color: rgb(100, 50, 50);
+    top:75px;
+    border-radius: 0 0 0 0;
+    width: 200px;
+    transform: rotate(0deg);
+  }
+  25% {
+    background-color: rgb(150, 100, 100);
+     top:100px;
+     border-radius: 50% 0 0 0;
+    width: 200px;
+    transform: rotate(100deg);
+  }
+  50% {
+    background-color: rgb(200, 50, 35);
+     top:125px;
+     border-radius: 50% 50% 0 0;
+    width: 200px;
+    transform: rotate(180deg);
+  }
+  75% {
+    background-color: rgb(200, 100, 100);
+       top:150px;
+     border-radius: 50% 50% 0 0;
+    width: 200px;
+    transform: rotate(220deg);
+  }
+  100% {
+    background-color: rgb(100, 50, 50);
+       top:175px;
+     border-radius: 50% 50% 50% 50%;
+    width: 200px;
+    transform: rotate(280deg);
+  }
+}
