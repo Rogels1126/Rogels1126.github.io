@@ -1,7 +1,40 @@
 body{
   background-color:#b6dfca;
 }
-.STK {
+.Title{
+  position:relative;
+  font-family: 'Raleway';
+  top:45px;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.SV1{
+  position:absolute;
+  font-family: 'Raleway';
+  top:505px;
+  font-weight: bold;
+  font-size: 20px;
+  left:250px;
+}
+  
+.SV2{
+  position:absolute;
+  font-family: 'Raleway';
+  top:505px;
+  font-weight: bold;
+  font-size: 20px;
+  left:650px;
+}
+.SV3{
+  position:absolute;
+  font-family: 'Raleway';
+  top:505px;
+  font-weight: bold;
+  font-size: 20px;
+  left:1050px;
+}
+.G1 {
   position: absolute;
   width: 250px;
   height: 75px;
@@ -9,9 +42,10 @@ body{
   left:200px;
   animation-name: animA;
   animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
-  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes animA {
@@ -23,7 +57,7 @@ body{
   }
  }
 
-.round {
+.G2 {
   position: absolute;
   width: 250px;
   height: 75px;
@@ -31,8 +65,10 @@ body{
   left:200px;
   animation-name: hi;
   animation-duration: 5s;
-  animation-iteration-count:infinite; 
+  animation-iteration-count:1; 
   animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes hi {
@@ -51,7 +87,7 @@ body{
     width: 250px;
   }
 }
-.Gb {
+.G3 {
   position: absolute;
   width: 250px;
   height: 75px;
@@ -59,8 +95,10 @@ body{
   left:200px;
   animation-name: howdy;
   animation-duration: 5s;
-  animation-iteration-count:infinite; 
+  animation-iteration-count:1; 
   animation-timing-function: linear;
+   animation-delay: 6s;
+  animation-fill-mode: forwards;
 }
 @keyframes howdy {
   0% {
@@ -79,14 +117,73 @@ body{
     width: 250px;
   }
 }
-
-
-.STK2 {
+.G4 {
   position: absolute;
   width: 250px;
   height: 75px;
   top:400px;
-  left:500px;
+  left:200px;
+  animation-name: hey3;
+  animation-duration: 3s;
+  animation-iteration-count:1; 
+  animation-timing-function: linear;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+}
+@keyframes hey3 {
+  0% {
+    top:300px;
+    width: 250px;
+    left:150px;
+  }
+  25% {
+    top:250px;
+    left:250px;
+    width: 250px;
+  }
+  100% {
+    top:250px;
+    left:250px;
+    width: 250px;
+  }
+}
+.G5 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:200px;
+  animation-name: hey4;
+  animation-duration: 3s;
+  animation-iteration-count:1; 
+  animation-timing-function: linear;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+@keyframes hey4 {
+  0% {
+    top:250px;
+    width: 250px;
+    left:250px;
+  }
+  25% {
+    top:200px;
+    left:200px;
+    width: 250px;
+  }
+  100% {
+    top:200px;
+    left:200px;
+    width: 250px;
+  }
+}
+
+.O1 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:600px;
   animation-name: animA2;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -96,23 +193,25 @@ body{
 
 @keyframes animA2 {
   0% {
-    left:500px;
+    left:600px;
     top:400px;
     width: 250px;
-    transform: 
+
   }
  }
 
-.round2 {
+.O2 {
   position: absolute;
   width: 250px;
   height: 75px;
   top:400px;
-  left:500px;
+  left:600px;
   animation-name: hi2;
   animation-duration: 5s;
-  animation-iteration-count:infinite; 
+  animation-iteration-count:1; 
   animation-timing-function: linear;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes hi2 {
@@ -122,41 +221,247 @@ body{
   }
   25% {
     top:350px;
-    left:550px;
+    left:650px;
     width: 250px;
   }
   100% {
     top:350px;
-    left:550px;
+    left:650px;
     width: 250px;
   }
 }
-.Gb2 {
+.O3 {
   position: absolute;
   width: 250px;
   height: 75px;
   top:400px;
-  left:500px;
+  left:600px;
   animation-name: howdy2;
-  animation-duration: 5s;
-  animation-iteration-count:infinite; 
+  animation-duration: 3s;
+  animation-iteration-count:1; 
   animation-timing-function: linear;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
 }
 @keyframes howdy2 {
   0% {
     top:350px;
     width: 250px;
-    left:550px;
+    left:650px;
   }
   25% {
     top:300px;
-    left:450px;
+    left:550px;
     width: 250px;
   }
   100% {
     top:300px;
-    left:450px;
+    left:550px;
     width: 250px;
   }
 }
+.O4 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:600px;
+  animation-name: howdy3;
+  animation-duration: 3s;
+  animation-iteration-count:1; 
+  animation-timing-function: linear;
+  animation-delay: 18s;
+  animation-fill-mode: forwards;
+}
+@keyframes howdy3 {
+  0% {
+    top:300px;
+    width: 250px;
+    left:550px;
+  }
+  25% {
+    top:250px;
+    left:650px;
+    width: 250px;
+  }
+  100% {
+    top:250px;
+    left:650px;
+    width: 250px;
+  }
+}
+.O5 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:600px;
+  animation-name: howdy4;
+  animation-duration: 3s;
+  animation-iteration-count:1; 
+  animation-timing-function: linear;
+  animation-delay: 24s;
+  animation-fill-mode: forwards;
+}
+@keyframes howdy4 {
+  0% {
+    top:250px;
+    width: 250px;
+    left:650px;
+  }
+  25% {
+    top:200px;
+    left:600px;
+    width: 250px;
+  }
+  100% {
+    top:200px;
+    left:600px;
+    width: 250px;
+  }
+}
+.B1 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:1000px;
+  animation-name: animA3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+
+@keyframes animA3 {
+  0% {
+    left:1000px;
+    top:400px;
+    width: 250px;
+
+  }
+ }
+
+.B2 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:1000px;
+  animation-name: sup1;
+  animation-duration: 3s;
+  animation-iteration-count:1; 
+  animation-timing-function: linear;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sup1 {
+  0% {
+    top:400px;
+    width: 250px;
+  }
+  25% {
+    top:350px;
+    left:1050px;
+    width: 250px;
+  }
+  100% {
+    top:350px;
+    left:1050px;
+    width: 250px;
+  }
+}
+.B3 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:1000px;
+  animation-name: sup2;
+  animation-duration: 3s;
+  animation-iteration-count:1; 
+  animation-timing-function: linear;
+  animation-delay: 20s;
+  animation-fill-mode: forwards;
+}
+@keyframes sup2 {
+  0% {
+    top:350px;
+    width: 250px;
+    left:1050px;
+  }
+  25% {
+    top:300px;
+    left:950px;
+    width: 250px;
+  }
+  100% {
+    top:300px;
+    left:950px;
+    width: 250px;
+  }
+}
+.B4 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:1000px;
+  animation-name: sup3;
+  animation-duration: 3s;
+  animation-iteration-count:1; 
+  animation-timing-function: linear;
+  animation-delay: 30s;
+  animation-fill-mode: forwards;
+}
+@keyframes sup3 {
+  0% {
+    top:300px;
+    width: 250px;
+    left:950px;
+  }
+  25% {
+    top:250px;
+    left:1050px;
+    width: 250px;
+  }
+  100% {
+    top:250px;
+    left:1050px;
+    width: 250px;
+  }
+}
+.B5 {
+  position: absolute;
+  width: 250px;
+  height: 75px;
+  top:400px;
+  left:1000px;
+  animation-name: sup4;
+  animation-duration: 3s;
+  animation-iteration-count:1; 
+  animation-timing-function: linear;
+  animation-delay: 40s;
+  animation-fill-mode: forwards;
+}
+@keyframes sup4 {
+  0% {
+    top:250px;
+    width: 250px;
+    left:1050px;
+  }
+  25% {
+    top:200px;
+    left:1000px;
+    width: 250px;
+  }
+  100% {
+    top:200px;
+    left:1000px;
+    width: 250px;
+  }
+}
+
+
 
