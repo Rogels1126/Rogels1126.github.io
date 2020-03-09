@@ -12,46 +12,45 @@ body{
 .SV1{
   position:absolute;
 font-family: 'Cinzel';
-  top:505px;
+  top:605px;
   font-weight: bold;
   font-size: 20px;
-  left:250px;
+  left:240px;
 }
   
 .SV2{
   position:absolute;
 font-family: 'Cinzel';
-  top:505px;
+  top:605px;
   font-weight: bold;
   font-size: 20px;
-  left:650px;
+  left:665px;
 }
 .SV3{
   position:absolute;
 font-family: 'Cinzel';
-  top:505px;
+  top:605px;
   font-weight: bold;
   font-size: 20px;
-  left:1050px;
+  left:1065px;
 }
 .G1 {
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:200px;
   animation-name: animA;
   animation-duration: 1s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
-  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 
 @keyframes animA {
   0% {
     left:200px;
-    top:400px;
+    top:500px;
     width: 250px;
     transform: 
   }
@@ -61,28 +60,28 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:200px;
   animation-name: hi;
-  animation-duration: 5s;
+  animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
 }
 
 @keyframes hi {
   0% {
-    top:400px;
+    top:500px;
     width: 250px;
   }
   25% {
-    top:350px;
+    top:450px;
     left:250px;
     width: 250px;
   }
   100% {
-    top:350px;
+    top:450px;
     left:250px;
     width: 250px;
   }
@@ -91,28 +90,28 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:200px;
   animation-name: howdy;
-  animation-duration: 5s;
+  animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-   animation-delay: 6s;
+   animation-delay: 4s;
   animation-fill-mode: forwards;
 }
 @keyframes howdy {
   0% {
-    top:350px;
+    top:450px;
     width: 250px;
     left:250px;
   }
   25% {
-    top:300px;
+    top:400px;
     left:150px;
     width: 250px;
   }
   100% {
-    top:300px;
+    top:400px;
     left:150px;
     width: 250px;
   }
@@ -121,28 +120,28 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:200px;
   animation-name: hey3;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 9s;
+  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
 @keyframes hey3 {
   0% {
-    top:300px;
+    top:400px;
     width: 250px;
     left:150px;
   }
   25% {
-    top:250px;
+    top:350px;
     left:250px;
     width: 250px;
   }
   100% {
-    top:250px;
+    top:350px;
     left:250px;
     width: 250px;
   }
@@ -151,28 +150,28 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:200px;
   animation-name: hey4;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 12s;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
 }
 @keyframes hey4 {
   0% {
-    top:250px;
+    top:350px;
     width: 250px;
     left:250px;
   }
   25% {
-    top:200px;
+    top:300px;
     left:200px;
     width: 250px;
   }
   100% {
-    top:200px;
+    top:300px;
     left:200px;
     width: 250px;
   }
@@ -182,7 +181,7 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:600px;
   animation-name: animA2;
   animation-duration: 1s;
@@ -195,7 +194,7 @@ font-family: 'Cinzel';
 @keyframes animA2 {
   0% {
     left:600px;
-    top:400px;
+    top:500px;
     width: 250px;
 
   }
@@ -205,29 +204,29 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:600px;
   animation-name: hi2;
   animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   z-index:2;
 }
 
 @keyframes hi2 {
   0% {
-    top:400px;
+    top:500px;
     width: 250px;
   }
   25% {
-    top:365px;
+    top:465px;
     left:630px;
     width: 250px;
   }
   100% {
-    top:365px;
+    top:465px;
     left:630px;
     width: 250px;
   }
@@ -236,29 +235,29 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:600px;
   animation-name: howdy2;
   animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 6s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
    z-index:3;
 }
 @keyframes howdy2 {
   0% {
-    top:365px;
+    top:465px;
     width: 250px;
     left:630px;
   }
   25% {
-    top:330px;
+    top:430px;
     left:580px;
     width: 250px;
   }
   100% {
-    top:330px;
+    top:430px;
     left:580px;
     width: 250px;
   }
@@ -267,29 +266,29 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:600px;
   animation-name: howdy3;
   animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 9s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
    z-index:4;
 }
 @keyframes howdy3 {
   0% {
-    top:330px;
+    top:430px;
     width: 250px;
     left:580px;
   }
   25% {
-    top:295px;
+    top:395px;
     left:630px;
     width: 250px;
   }
   100% {
-    top:295px;
+    top:395px;
     left:630px;
     width: 250px;
   }
@@ -298,29 +297,29 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:600px;
   animation-name: howdy4;
   animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 12s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
    z-index:5;
 }
 @keyframes howdy4 {
   0% {
-    top:295px;
+    top:395px;
     width: 250px;
     left:630px;
   }
   25% {
-    top:260px;
+    top:360px;
     left:580px;
     width: 250px;
   }
   100% {
-    top:260px;
+    top:360px;
     left:580px;
     width: 250px;
   }
@@ -329,29 +328,29 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:600px;
   animation-name: howdy5;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 15s;
+  animation-delay: 6s;
   animation-fill-mode: forwards;
    z-index:6;
 }
 @keyframes howdy5 {
   0% {
-    top:260px;
+    top:360px;
     width: 250px;
     left:580px;
   }
   25% {
-    top:225px;
+    top:325px;
     left:600px;
     width: 250px;
   }
   100% {
-    top:225px;
+    top:325px;
     left:600px;
     width: 250px;
   }
@@ -360,29 +359,29 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:600px;
   animation-name: howdy6;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 18s;
+  animation-delay: 7s;
   animation-fill-mode: forwards;
    z-index:7;
 }
 @keyframes howdy6 {
   0% {
-    top:225px;
+    top:325px;
     width: 250px;
     left:600px;
   }
   25% {
-    top:190px;
+    top:290px;
     left:630px;
     width: 250px;
   }
   100% {
-    top:190px;
+    top:290px;
     left:630px;
     width: 250px;
   }
@@ -391,29 +390,29 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:600px;
   animation-name: howdy7;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 21s;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
    z-index:8;
 }
 @keyframes howdy7 {
   0% {
-    top:190px;
+    top:290px;
     width: 250px;
     left:630px;
   }
   25% {
-    top:155px;
+    top:255px;
     left:600px;
     width: 250px;
   }
   100% {
-    top:155px;
+    top:255px;
     left:600px;
     width: 250px;
   }
@@ -422,7 +421,7 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:1000px;
   animation-name: animA3;
   animation-duration: 1s;
@@ -434,7 +433,7 @@ font-family: 'Cinzel';
 @keyframes animA3 {
   0% {
     left:1000px;
-    top:400px;
+    top:500px;
     width: 250px;
 
   }
@@ -444,28 +443,28 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:1000px;
   animation-name: sup1;
   animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 5s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 
 @keyframes sup1 {
   0% {
-    top:400px;
+    top:500px;
     width: 250px;
   }
   25% {
-    top:340px;
+    top:440px;
     left:1000px;
     width: 250px;
   }
   100% {
-    top:340px;
+    top:440px;
     left:1000px;
     width: 250px;
   }
@@ -474,28 +473,28 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:1000px;
   animation-name: sup2;
   animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 10s;
+  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
 @keyframes sup2 {
   0% {
-    top:340px;
+    top:440px;
     width: 250px;
     left:1000px;
   }
   25% {
-    top:280px;
+    top:380px;
     left:1000px;
     width: 250px;
   }
   100% {
-    top:280px;
+    top:380px;
     left:1000px;
     width: 250px;
   }
@@ -504,28 +503,28 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:1000px;
   animation-name: sup3;
   animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 15s;
+  animation-delay: 9s;
   animation-fill-mode: forwards;
 }
 @keyframes sup3 {
   0% {
-    top:280px;
+    top:380px;
     width: 250px;
     left:1000px;
   }
   25% {
-    top:220px;
+    top:320px;
     left:1000px;
     width: 250px;
   }
   100% {
-    top:220px;
+    top:320px;
     left:1000px;
     width: 250px;
   }
@@ -534,82 +533,296 @@ font-family: 'Cinzel';
   position: absolute;
   width: 250px;
   height: 75px;
-  top:400px;
+  top:500px;
   left:1000px;
   animation-name: sup4;
   animation-duration: 1s;
   animation-iteration-count:1; 
   animation-timing-function: linear;
-  animation-delay: 20s;
+  animation-delay: 12s;
   animation-fill-mode: forwards;
 }
 @keyframes sup4 {
   0% {
-    top:220px;
+    top:320px;
     width: 250px;
     left:1000px;
   }
   25% {
-    top:160px;
+    top:260px;
     left:1000px;
     width: 250px;
   }
   100% {
-    top:160px;
+    top:260px;
     left:1000px;
     width: 250px;
   }
 }
-.box.alarm {
-  animation-name: myAnim;
+.B1B {
+position: absolute;
+  width: 200px;
+  height: 55px;
+  top:400px;
+  left:935px;
+   display:none;
+   z-index:10;
 }
-.box{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 2000px;
-  height: 1000px;
-  background-color: rgb(200,0,0);
-  animation-name: myAnim;
-  animation-duration: 0s;
-  animation-delay: 50s;
+.B1B.alarm {
+  animation-name: animBA;
+  animation-duration: 15s;
   animation-iteration-count: 1;
-  animation-timing-function: linear;
-   animation-fill-mode: forwards;
-  z-index:8;
-  opacity:0%;
+  animation-timing-function: steps(1);
+  
+  animation-fill-mode: forwards;
+  display:block;
 }
-@keyframes myAnim {
+@keyframes animBA {
   0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.B2B {
+position: absolute;
+  width: 200px;
+  height: 55px;
+  top:357px;
+  left:935px;
+   display:none;
+   z-index:10;
+}
+.B2B.alarm {
+  animation-name: animBB;
+  animation-duration: 12s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+ 
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes animBB {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.B3B {
+position: absolute;
+  width: 200px;
+  height: 55px;
+  top:314px;
+  left:935px;
+   display:none;
+   z-index:10;
+}
+.B3B.alarm {
+  animation-name: animBC;
+  animation-duration: 9s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes animBC {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.B4B {
+ position: absolute;
+  width: 200px;
+  height: 55px;
+  top:271px;
+  left:935px;
+   display:none;
+   z-index:10;
+}
+.B4B.alarm {
+animation-name: animBD;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes animBD {
+  0% {
+    opacity:100%;
       
   }
   100% {
-     opacity:100%;
+     opacity:0%;
+  }
+}
+.B5B {
+ position: absolute;
+  width: 200px;
+  height: 55px;
+  top:228px;
+  left:935px;
+   display:none;
+   z-index:10;
+}
+.B5B.alarm {
+animation-name: animBE;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes animBE {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.box {
+ position: absolute;
+  width: 2000px;
+  height: 1000px;
+  top:0px;
+  left:0px;
+   display:none;
+   z-index:8;
+}
+.box.alarm {
+animation-name: boxanim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes boxanim {
+  0% { background-color: #c12727
+      
+  }
+   25% {
+      background-color: #d32222
+  }
+   50% {
+      background-color: #890a0a
+  }
+   75% {
+       background-color: #f42a2a
+  }
+  100% {
+    background-color: #840303
   }
 }
 
+.LOCK {
+ position: absolute;
+  width: 90px;
+  height: 90px;
+  top:640px;
+  left:650px;
+   display:none;
+   z-index:10;
+}
+.LOCK.alarm {
+animation-name: locknim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes locknim {
+  0% { 
+       opacity:100%;
+  }
+
+  100% {
+  opacity:0%;
+  }
+}
+.Warning {
+ position: absolute;
+top:50px;
+  left:300px;
+   display:none;
+   z-index:10;
+   font-family: 'Oxanium' ;
+   font-size: 50px
+}
+.Warning.alarm {
+animation-name: warnnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes warnnim {
+  0% { 
+       opacity:100%;
+  }
+
+  100% {
+  opacity:0%;
+  }
+}
+
+.Press {
+ position: absolute;
+top:550px;
+  left:510px;
+   display:none;
+   z-index:10;
+   font-family: 'Oxanium' ;
+   font-size: 30px
+}
+.Press.alarm {
+animation-name: pressnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes pressnim {
+  0% { 
+       opacity:100%;
+  }
+
+  100% {
+  opacity:0%;
+  }
+}
 
 .G1B {
   position: absolute;
-  width: 250px;
-  height: 75px;
+  width: 200px;
+  height: 56px;
   top:400px;
-  left:200px;
-  animation-name: animAA;
-  animation-duration: 10s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-delay: 50s;
-  animation-fill-mode: forwards;
-   opacity:0%;
-   z-index:9;
+  left:275px;
+   display:none;
+   z-index:10;
 }
 .G1B.alarm {
-  animation-name: animAA;
-  animation-delay: 1s;
-  opacity:100%;
+  animation-name: animGA;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  
+  animation-fill-mode: forwards;
+  display:block;
 }
-@keyframes animAA {
+@keyframes animGA {
   0% {
       opacity:100%;
   }
@@ -618,26 +831,24 @@ font-family: 'Cinzel';
   }
 }
 .G2B {
-  position: absolute;
-  width: 250px;
-  height: 75px;
-  top:350px;
-  left:250px;
-  animation-name: animB;
-  animation-duration: 8s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-delay: 50s;
-  animation-fill-mode: forwards;
-    opacity:0%;
-    z-index:9;
+position: absolute;
+  width: 200px;
+  height: 56px;
+  top:363px;
+  left:315px;
+   display:none;
+   z-index:10;
 }
 .G2B.alarm {
-  animation-name: animB;
-   animation-delay: 1s;
-  opacity:100%;
+  animation-name: animGB;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+
+  animation-fill-mode: forwards;
+  display:block;
 }
-@keyframes animB {
+@keyframes animGB {
   0% {
       opacity:100%;
   }
@@ -646,26 +857,24 @@ font-family: 'Cinzel';
   }
 }
 .G3B {
-  position: absolute;
-  width: 250px;
-  height: 75px;
-  top:300px;
-  left:150px;
-  animation-name: animC;
-  animation-duration: 6s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-delay: 50s;
-  animation-fill-mode: forwards;
-    opacity:0%;
-    z-index:9;
+position: absolute;
+  width: 200px;
+  height: 56px;
+  top:326px;
+  left:215px;
+   display:none;
+   z-index:10;
 }
 .G3B.alarm {
-  animation-name: animC;
-   animation-delay: 1s;
-  opacity:100%;
+  animation-name: animGC;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  
+  animation-fill-mode: forwards;
+  display:block;
 }
-@keyframes animC {
+@keyframes animGC {
   0% {
       opacity:100%;
   }
@@ -674,26 +883,24 @@ font-family: 'Cinzel';
   }
 }
 .G4B {
-  position: absolute;
-  width: 250px;
-  height: 75px;
-  top:250px;
-  left:250px;
-  animation-name: animD;
-  animation-duration: 4s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-delay: 50s;
-  animation-fill-mode: forwards;
-  opacity:0%;
-  z-index:9;
+ position: absolute;
+  width: 200px;
+  height: 56px;
+  top:289px;
+  left:315px;
+   display:none;
+   z-index:10;
 }
 .G4B.alarm {
-  animation-name: animD;
-  animation-delay: 50s;
-  opacity:100%;
+animation-name: animGD;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  
+  animation-fill-mode: forwards;
+  display:block;
 }
-@keyframes animD {
+@keyframes animGD {
   0% {
     opacity:100%;
       
@@ -703,26 +910,239 @@ font-family: 'Cinzel';
   }
 }
 .G5B {
-  position: absolute;
-  width: 250px;
-  height: 75px;
-  top:200px;
-  left:200px;
-  animation-name: animE;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-delay: 50s;
-  animation-fill-mode: forwards;
-  opacity:0%;
-  z-index:9;
+ position: absolute;
+  width: 200px;
+  height: 56px;
+  top:252px;
+  left:275px;
+   display:none;
+   z-index:10;
 }
 .G5B.alarm {
-  animation-name: anime;
-  animation-delay: 1s;
-  opacity:100%;
+animation-name: animGE;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes animGE {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+
+
+.O1B {
+  position: absolute;
+  width: 200px;
+  height: 55px;
+  top:400px;
+  left:600px;
+   display:none;
+   z-index:10;
+}
+.O1B.alarm {
+  animation-name: animAA;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  
+  animation-fill-mode: forwards;
+  display:block;
+}
+@keyframes animAA {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+
+
+.O2B {
+  position: absolute;
+  width: 200px;
+  height: 55px;
+  top:375px;
+  left:630px;
+    display:none;
+    z-index:10;
+  }
+.O2B.alarm {
+
+    animation-name: animB;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+   
+    display:block;
+}
+@keyframes animB {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.O3B {
+  position: absolute;
+  width: 200px;
+  height: 55px;
+  top:350px;
+  left:580px;
+    display:none;
+    z-index:10;
+}
+.O3B.alarm {
+   animation-name: animC;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+  
+    display:block;
+}
+@keyframes animC {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.O4B {
+   position: absolute;
+  width: 200px;
+  height: 55px;
+  top:325px;
+  left:630px;
+    display:none;
+    z-index:10;
+}
+.O4B.alarm {
+   animation-name: animD;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+ 
+    display:block;
+}
+
+@keyframes animD {
+  0% {
+    opacity:100%;
+      
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.O5B {
+  position: absolute;
+  width: 200px;
+  height: 55px;
+  top:300px;
+  left:580px;
+    display:none;
+    z-index:10;
+}
+.O5B.alarm {
+   animation-name: animE;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+   
+    display:block;
 }
 @keyframes animE {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.O6B {
+position: absolute;
+  width: 200px;
+  height: 55px;
+  top:275px;
+  left:600px;
+    display:none;
+    z-index:10;
+}
+.O6B.alarm {
+  animation-name: animF;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+  
+    display:block;
+}
+@keyframes animF {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.O7B {
+ position: absolute;
+  width: 200px;
+  height: 55px;
+  top:250px;
+  left:630px;
+    display:none;
+    z-index:10;
+}
+.O7B.alarm {
+  animation-name: animG;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+   
+    display:block;
+}
+@keyframes animG {
+  0% {
+      opacity:100%;
+  }
+  100% {
+     opacity:0%;
+  }
+}
+.O8B {
+ position: absolute;
+  width: 200px;
+  height: 55px;
+  top:225px;
+  left:580px;
+    display:none;
+    z-index:10;
+}
+.O8B.alarm {
+  animation-name: animH;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(1);
+  animation-fill-mode: forwards;
+
+    display:block;
+}
+@keyframes animH {
   0% {
       opacity:100%;
   }
